@@ -5,7 +5,7 @@ import replicate
 import os
 
 # Set the Replicate API token
-os.environ["REPLICATE_API_TOKEN"] = "r8_CyGY6JSgDk8CZyKpIXH6tV6pVvaY2E82RcIYZ"
+os.environ["REPLICATE_API_TOKEN"] = "your_replicate_api_key"
 
 # Load BLIP Processor and Model for Image Captioning
 blip_processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
